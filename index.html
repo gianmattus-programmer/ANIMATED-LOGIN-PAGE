@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Creado por Gianmattus-Programmer-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inicio de Sesión y Registro</title>
+
+    <!--CDN de Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--CSS Personalizado-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- PARA EL CÓDIGO FUENTE COMENTA "CODE" -->
+    <div class="wrapper">
+        <span class="rotate-bg"></span>
+        <span class="rotate-bg2"></span>
+
+        <div class="form-box login">
+            <h2 class="title animation" style="--i:0; --j:21">INICIA SESIÓN</h2>
+            <form action="#">
+                <div class="input-box animation" style="--i:1; --j:22">
+                    <input type="text" required>
+                    <label for="">Usuario</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+
+                <div class="input-box animation" style="--i:2; --j:23">
+                    <input type="password" required>
+                    <label for="">Contraseña</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+
+                <button type="submit" class="btn animation" style="--i:3; --j:24">Iniciar Sesión</button>
+
+                <div class="linkTxt animation" style="--i:5; --j:25">
+                    <p>¿No tienes una cuenta? <a href="#" class="register-link">Registrate</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-text login">
+            <h2 class="animation" style="--i:0; --j:20">Welcome Back!</h2>
+            <p class="animation" style="--i:1; --j:21">Code Craft Solutions Bienvenido a nuestra familia, gracias por unirse.</p>
+        </div>
+
+        <div class="form-box register">
+            <h2 class="title animation" style="--i:17; --j:0">REGISTRATE</h2>
+            <form action="#">
+                <div class="input-box animation" style="--i:18; --j:1">
+                    <input type="text" required>
+                    <label for="">Usuario</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+
+                <div class="input-box animation" style="--i:19; --j:2">
+                    <input type="email" required>
+                    <label for="">Correo</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+
+                <div class="input-box animation" style="--i:20; --j:3">
+                    <input type="password" required>
+                    <label for="">Contraseña</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+
+                <button type="submit" class="btn animation" style="--i:21;--j:4">Registrarse</button>
+
+                <div class="linkTxt animation" style="--i:22; --j:5">
+                    <p>¿Ya tienes una cuenta? <a href="#" class="login-link">Iniciar Sesión</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-text register">
+            <h2 class="animation" style="--i:17; --j:0;">Code Craft Solutions</h2>
+            <p class="animation" style="--i:18; --j:1;">Obtén más videos tutoriales en nuestro canal y no olvides suscribirte</p>
+        </div>
+    </div>
+
+    <!--Script JavaScript-->
+    <script src="script.js"></script>
+</body>
+</html>
